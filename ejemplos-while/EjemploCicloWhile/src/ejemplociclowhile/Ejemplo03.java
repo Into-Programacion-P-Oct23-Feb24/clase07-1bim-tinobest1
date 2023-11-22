@@ -31,9 +31,9 @@ public class Ejemplo03 {
             valor_ingresado = entrada.nextInt();
             suma = suma + valor_ingresado;
             System.out.printf("Valor ingresado %d\n", valor_ingresado);
-            //contador = contador + 1;
+            contador = contador + 1;//si borramos contador seria = infinito
         } //cliclo repetitivo, pedimos un valor ingresado para sumarlo e irlos 
-          //e ir los acomulunadoi 
+          //e ir los acomulando con una suma
 
         System.out.printf("La suma final es %d\n", suma);
 

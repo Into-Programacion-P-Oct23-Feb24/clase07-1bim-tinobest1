@@ -33,6 +33,8 @@ public class Ejemplo031 {
             suma = suma + valor_ingresado;
             System.out.printf("Valor ingresado %d\n", valor_ingresado);
             contador = contador + 1;
+            //cliclo repetitivo, pedimos un valor ingresado para sumarlo e irlos 
+          //e ir los acomulando con una suma
         }
         promedio = suma / limite;
         System.out.printf("La suma final es %d\n", suma);
